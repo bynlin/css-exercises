@@ -17,5 +17,17 @@
   font-weight: 700;
 }
 
-/* Made a couple of mistakes
-1. */
+/* Fixed a couple of mistakes to align with instructions and
+improve code quality:
+
+1. Fixed Selector Target:
+What I had done: I styled p - this means i accidentally styled 
+all paragraph elements 
+What i fixed: I added a class .odd to add to elements 1, 3 and 5
+
+2. Improved Reusability:
+What I had done:I added font-size=24px to elements 3 and 4  
+What I fixed: Refactored the repetitive font-size: 24px; property 
+on the elements into a single class .adjust-font-size, reducing
+redundancy and increasing reusabiliy.
+*/
